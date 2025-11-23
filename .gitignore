@@ -1,5 +1,5 @@
 *.o
 generate
 private.key
-private.pem
+public.pem
 cert.crt

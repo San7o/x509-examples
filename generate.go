@@ -50,7 +50,6 @@ func WriteRSAKeys(caPrivKey *rsa.PrivateKey,	pubKeyFilename string,
 		return err
 	}
 
-	os.Chmod(pubKeyFilename, 0600)
 	os.Chmod(privKeyFilename, 0600)
 	return nil
 }
