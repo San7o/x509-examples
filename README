@@ -4,8 +4,9 @@ x509-examples
 This repository contains two examples for generating and storing an
 RSA key pair and a self-signed x509 certificate (RFC 5980).
 
-- generate.c: example in C using openssl (3+) and libcrypto
-- generate.go: example using Go standard library
+- generate.c: example in C using openssl (3+) and libcrypto with RSA
+- generate.go: example using Go standard library with RSA
+- generate_ecdsa.go: example using Go standard library with ecdsa
 
 Author:   Giovanni Santini
 Mail:     giovanni.santini@proton.me
@@ -19,9 +20,10 @@ C example:
    make
    make run
 
-Go example:
+Go examples:
 
    make go
+   make go-ecdsa
 
 Both:
 

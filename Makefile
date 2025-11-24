@@ -15,7 +15,8 @@ CC     ?= gcc
 #
 # Go
 #
-GO_MAIN  = generate.go
+GO_MAIN       = generate.go
+GO_MAIN_ECDSA = generate_ecdsa.go
 
 all: main
 
@@ -34,6 +35,9 @@ info:
 
 go: $(GO_MAIN)
 	go run $(GO_MAIN)
+
+go-ecdsa: $(GO_MAIN_ECDSA)
+	go run $(GO_MAIN_ECDSA)
 
 .PHONY: clean info run
 
