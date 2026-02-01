@@ -3,6 +3,8 @@
 #
 # Generate a self-signed certificate with openssl
 #
+# Note that for ssh key generation, you should use the utility `ssh-keygen`
+#
 
 PUBLIC_KEY_NAME=public.pem
 PRIVATE_KEY_NAME=private.key
