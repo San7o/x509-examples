@@ -12,6 +12,7 @@ Author:   Giovanni Santini
 Mail:     giovanni.santini@proton.me
 License:  MIT
 
+
 Usage
 -----
 
@@ -29,6 +30,10 @@ Both:
 
    make info # parse the generated certificate
    make clean
+
+Shell using the openssl cli:
+
+   ./generate.sh
 
 
 Links
